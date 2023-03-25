@@ -3,7 +3,7 @@ local array
 if shared["betterisfile"]("Tapeware/ArrayList.lua") then
     array = loadstring(readfile("Tapeware/ArrayList.lua"))()
 else
-    array = loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/ArrayList"))()
+    array = loadstring(game:HttpGet("https://github.com/BBIsTheBestLUACoder/TapeWareLeak/blob/main/Arraylist"))()
 end
 local lib = {
     ["Rainbow"] = false,
